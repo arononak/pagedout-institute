@@ -1,6 +1,7 @@
 # Git Stamp - Flutter advanced versioning tool
 
 In the standard approach to software development, we release subsequent versions by increasing versions.
+It used to be version 1, 2, 3... Then someone came up with the idea of ​​making 2 parts of the version major.minor.
 An example here is the famous Windows 3.11.
 Currently, the most popular division is into three parts: major.minor.patch.
 https://en.wikipedia.org/wiki/Software_versioning
