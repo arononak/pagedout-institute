@@ -1,5 +1,7 @@
 # ✏️ My Articles Hub for [PagedOut](https://pagedout.institute)
 
+[1. Git Stamp - Flutter advanced versioning tool](./ARTICLE_GIT_STAMP.md)
+
 # 📝 License
 
 > [!NOTE]
