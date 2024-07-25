@@ -14,7 +14,7 @@ An example here is the game for PC, PlayStation, XBOX and Android + iOS.
 It should be possible to run a game from PS4 on PS5 for compatibility reasons, but usually the developers want this game to use new functions on the PS5 console, e.g. RayTracing or haptic functions in the new pad.
 In the example of Minecraft, we most likely have some common code and some Android, iOS, XBOX...
 
-IIf we introduce corrections to system notifications at the iOS level, we raise the version from 1.20.50 to 1.20.51.
+If we introduce corrections to system notifications at the iOS level, we raise the version from 1.20.50 to 1.20.51.
 The first common problem that occurs is the lack of `git push` or `git pull`. There is a solution to this in the form of entering the last commit `SHA` into the application while building.
 A bigger problem is a complicated GitHub Actions script or similar tool. Then we are not sure whether everything was downloaded due to various cache mechanisms and whether it jumped to the branch we wanted.
 In this case, a smart solution is to save the hash and branch to the final Android / PS5... build.
@@ -60,6 +60,7 @@ Text('SHA: ${GitStamp.latestCommit.hash}'),
 
 In addition to simple information such as `build date`, the tool has a user interface that is compiled into the application with a list of commits and changes.
 More on the project website:
+
 https://pub.dev/packages/git_stamp
 
 Source:
